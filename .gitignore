@@ -1,0 +1,22 @@
+# 環境変数とクレデンシャル
+.env
+.env.local
+.env.production
+*.env
+
+# 認証情報
+config/credentials.json
+token.json
+secrets/
+
+# ログファイル
+logs/
+*.log
+
+# 依存関係
+node_modules/
+__pycache__/
+
+# 一時ファイル
+temp/
+tmp/
